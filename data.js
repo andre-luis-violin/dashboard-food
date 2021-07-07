@@ -4,7 +4,7 @@ export const data = [
     "category": "burger",
     "name": "Cheese Burger",
     "ingredients": ["pão", "molho da casa", "hamburger 200g", "alface", "tomate", "queijo"],
-    "price": 15.00,
+    "price": 15,
     "sale": true,
     "image": "/assets/images/burger1.png"
   },
@@ -49,8 +49,8 @@ export const data = [
     "category": "pizza",
     "name": "Calabresa",
     "ingredients": ["molho de tomate", "queijo", "calabresa", "azeitonas", "oregano"],
-    "price": [20.00, 30.00],
-    "sale": true,
+    "price": 30.00,
+    "sale": false,
     "image": "/assets/images/burger2.png"
   },
   {
@@ -58,7 +58,7 @@ export const data = [
     "category": "pizza",
     "name": "4 Queijos",
     "ingredients": ["molho de tomate", "muçarela", "provolone", "requeijão cremoso", "parmesão", "azeitonas", "oregano"],
-    "price": [24.00, 40.00],
+    "price": 24.00,
     "sale": false,
     "image": "/assets/images/pizza1.png"
   },
@@ -67,7 +67,7 @@ export const data = [
     "category": "pizza",
     "name": "Lombo",
     "ingredients": ["molho de tomate", "muçarela", "lombo", "azeitonas", "oregano"],
-    "price": [26.00, 42.00],
+    "price": 42.00,
     "sale": false,
     "image": "/assets/images/pizza2.png"
   },
@@ -85,7 +85,7 @@ export const data = [
     "category": "pizza",
     "name": "Portuguesa",
     "ingredients": ["molho de tomate", "muçarela", "presunto", "ovo", "azeitonas", "oregano"],
-    "price": [25.00, 44.00],
+    "price": 44.00,
     "sale": false,
     "image": "/assets/images/pizza3.png"
   },
@@ -94,7 +94,7 @@ export const data = [
     "category": "pizza",
     "name": "Portuguesa",
     "ingredients": ["molho de tomate", "muçarela", "presunto", "ovo", "azeitonas", "oregano"],
-    "price": [25.00, 44.00],
+    "price": 44.00,
     "sale": false,
     "image": "/assets/images/pizza4.png"
   },
@@ -103,8 +103,19 @@ export const data = [
     "category": "pizza",
     "name": "Portuguesa",
     "ingredients": ["molho de tomate", "muçarela", "presunto", "ovo", "azeitonas", "oregano"],
-    "price": [25.00, 44.00],
+    "price": 44.00,
     "sale": false,
     "image": "/assets/images/pizza5.png"
   }
 ];
+
+export const categories = [
+  {
+    id: 1,
+    name: 'pizza'
+  },
+  {
+    id: 2,
+    name: 'burger'
+  },
+]
